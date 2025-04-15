@@ -1,0 +1,62 @@
+/* src/GuessTheNumberGame.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0a0a23, #1a1a40);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.game-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 60px;
+  padding: 30px;
+  background: rgba(20, 20, 50, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3),
+              0 0 40px rgba(0, 255, 200, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #0ff;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  background: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 10px #00ffff;
+  transition: 0.3s ease;
+}
+
+.input-group button:hover {
+  background: #00dddd;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #ffcc00;
+  text-shadow: 0 0 5px #ffcc00;
+}
